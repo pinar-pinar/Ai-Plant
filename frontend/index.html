@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PlantCare AI - Démo</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>PlantCare AI - Démo</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Diagnostic par image</h2>
+      <form id="imageForm">
+        <input type="file" id="imageInput" name="file" accept="image/*" />
+        <button type="submit">Envoyer</button>
+      </form>
+      <pre id="imageResult"></pre>
+    </section>
+
+    <section>
+      <h2>Diagnostic par symptômes</h2>
+      <form id="symptomForm">
+        <textarea id="symptoms" name="symptoms" rows="4" cols="50" placeholder="Décrivez les symptômes..."></textarea>
+        <button type="submit">Diagnostiquer</button>
+      </form>
+      <pre id="symptomResult"></pre>
+    </section>
+
+    <section>
+      <h2>Assistant IA (chat)</h2>
+      <form id="chatForm">
+        <input type="text" id="chatMsg" placeholder="Posez une question..." />
+        <button type="submit">Envoyer</button>
+      </form>
+      <pre id="chatResult"></pre>
+    </section>
+
+    <section>
+      <h2>Centre des maladies</h2>
+      <div id="diseasesList"></div>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

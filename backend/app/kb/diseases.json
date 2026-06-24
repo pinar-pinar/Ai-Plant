@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "Healthy",
+    "description": "A healthy leaf with no visible disease symptoms.",
+    "symptoms": [],
+    "causes": [],
+    "plants": ["generic"],
+    "treatments": ["no action required"],
+    "prevention": ["good cultural practices"]
+  },
+  {
+    "id": 1,
+    "name": "Leaf Spot",
+    "description": "Small circular spots on leaves, often brown or black.",
+    "symptoms": ["brown spots", "yellow halo"],
+    "causes": ["fungal infection"],
+    "plants": ["tomato", "pepper"],
+    "treatments": ["remove affected leaves", "fungicide application"],
+    "prevention": ["crop rotation", "avoid overhead watering"]
+  },
+  {
+    "id": 2,
+    "name": "Downy Mildew",
+    "description": "Powdery or downy growth on the underside of leaves, yellowing above.",
+    "symptoms": ["downy growth", "yellowing"],
+    "causes": ["oomycete pathogen"],
+    "plants": ["lettuce", "grape"],
+    "treatments": ["remove infected plants", "use certified fungicides"],
+    "prevention": ["ensure good air circulation", "resistant varieties"]
+  }
+]
